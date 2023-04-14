@@ -35,7 +35,7 @@ function App() {
             onChange={(e) => setTable(e.target.value)}
           />
           <br />
-          <MDBBtn block type="submit">
+          <MDBBtn block className="btn btn-success" type="submit">
             Generate
           </MDBBtn>
         </MDBContainer>
